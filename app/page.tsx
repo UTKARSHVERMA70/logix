@@ -33,7 +33,7 @@ export default function Page() {
           <div className="hero-overlay" />
           <div className="hero-content">
             <div className="eyebrow light"><span className="spark">✦</span> Your Global Logistics Partner</div>
-            <h1>Smart Logistics Solutions<br /><span>That Move the World.</span></h1>
+            <h1>Smart Logistics <span className="hero-word-image"><img src={referenceImageUrl} alt="SwiftMove delivery truck" /></span> Solutions<br /><span>That Move the <span className="hero-word-image hero-word-image-wide"><img src={referenceImageUrl} alt="Logistics truck on the road" /></span> World.</span></h1>
             <div className="hero-buttons">
               <a className="button primary" href="#contact">Get a Quote <ArrowUpRight size={15} /></a>
               <a className="button ghost" href="#about">Learn More <MoveRight size={15} /></a>
