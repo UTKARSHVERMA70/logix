@@ -1,6 +1,6 @@
-import { ArrowUpRight, Check, ChevronDown, Globe2, Menu, MoveRight, PackageCheck, Play, Truck, UsersRound } from 'lucide-react'
+import { ArrowUpRight, ChevronDown, Globe2, Menu, MoveRight, PackageCheck, Truck, UsersRound } from 'lucide-react'
 
-const videoUrl = 'https://www.pexels.com/download/video/17899033/'
+const videoUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/gemini_generated_video_76f4ef39-uguAKtV0dGzN9zVyAAeSqK76MoBc8H.mp4'
 const referenceImageUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BSDJa4Jgd48RDkZbEqggN8ZveoQwlp.png'
 
 const services = ['Land Transportation', 'Air Freight', 'Ocean Freight', 'Freight Forwarding', 'Supply Chain Management']
@@ -9,25 +9,24 @@ export default function Page() {
   return (
     <main className="site-shell">
       <section className="hero-section" id="home">
-        <div className="topbar">
-          <a className="brand" href="#home" aria-label="SwiftMove home">
-            <span className="brand-mark"><Truck size={16} strokeWidth={2.4} /></span>
-            <span>Swift<span>Move</span></span>
-          </a>
-          <nav className="desktop-nav" aria-label="Primary navigation">
-            <a className="active" href="#home">Home</a>
-            <a href="#about">About us</a>
-            <a href="#services">Service</a>
-            <a href="#insight">Insight</a>
-            <a href="#contact">Contact us</a>
-          </nav>
-          <div className="top-actions">
-            <button className="language" aria-label="Choose language">EN <ChevronDown size={12} /></button>
-            <button className="icon-button" aria-label="Open menu"><Menu size={17} /></button>
-          </div>
-        </div>
-
         <div className="hero-media">
+          <div className="topbar">
+            <a className="brand" href="#home" aria-label="SwiftMove home">
+              <span className="brand-mark"><Truck size={16} strokeWidth={2.4} /></span>
+              <span>Swift<span>Move</span></span>
+            </a>
+            <nav className="desktop-nav" aria-label="Primary navigation">
+              <a className="active" href="#home">Home</a>
+              <a href="#about">About us</a>
+              <a href="#services">Service</a>
+              <a href="#insight">Insight</a>
+              <a href="#contact">Contact us</a>
+            </nav>
+            <div className="top-actions">
+              <button className="language" aria-label="Choose language">EN <ChevronDown size={12} /></button>
+              <button className="icon-button" aria-label="Open menu"><Menu size={17} /></button>
+            </div>
+          </div>
           <video autoPlay muted loop playsInline preload="metadata" aria-label="Truck traveling on a highway" poster={referenceImageUrl}>
             <source src={videoUrl} type="video/mp4" />
           </video>
