@@ -1,7 +1,8 @@
 import { ArrowUpRight, ChevronDown, Globe2, Menu, MoveRight, PackageCheck, Truck, UsersRound } from 'lucide-react'
 
 const videoUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/gemini_generated_video_76f4ef39-uguAKtV0dGzN9zVyAAeSqK76MoBc8H.mp4'
-const referenceImageUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BSDJa4Jgd48RDkZbEqggN8ZveoQwlp.png'
+const referenceImageUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-S2QVeOZ5B5YS48rbj8gLjFtCJI53TY.png'
+const deliveryImageUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-1M7cndhGyzgjJXtoJxZwIsIaYGV1yd.png'
 
 const services = ['Land Transportation', 'Air Freight', 'Ocean Freight', 'Freight Forwarding', 'Supply Chain Management']
 
@@ -33,7 +34,7 @@ export default function Page() {
           <div className="hero-overlay" />
           <div className="hero-content">
             <div className="eyebrow light"><span className="spark">✦</span> Your Global Logistics Partner</div>
-            <h1>Smart Logistics <span className="hero-word-image"><img src={referenceImageUrl} alt="SwiftMove delivery truck" /></span> Solutions<br /><span>That Move the <span className="hero-word-image hero-word-image-wide"><img src={referenceImageUrl} alt="Logistics truck on the road" /></span> World.</span></h1>
+            <h1>Smart Logistics <span className="hero-word-image"><img src={referenceImageUrl} alt="Colorful freight trucks" /></span> Solutions<br /><span>That Move the <span className="hero-word-image hero-word-image-wide"><img src={deliveryImageUrl} alt="SwiftMove delivery driver" /></span> World.</span></h1>
             <div className="hero-buttons">
               <a className="button primary" href="#contact">Get a Quote <ArrowUpRight size={15} /></a>
               <a className="button ghost" href="#about">Learn More <MoveRight size={15} /></a>
